@@ -1,4 +1,5 @@
 # RHS
+### AKA Right Hoe's Shit
 The Retarded HTTP Server - the most retarded implementation of HTTP server in C language ever seen.
 
 ## Implementation Steps, roughly
