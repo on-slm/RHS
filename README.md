@@ -3,7 +3,7 @@
 The Retarded HTTP Server - the most retarded implementation of HTTP server in C language ever seen.
 
 ## Implementation Steps, roughly
-1. basic TCP sockets layer running (listen on port/ports, accept client connections and send/receive data)
+1. basic TCP sockets layer running (listen on port/ports, accept client connections and send/receive data), inspiration: https://www.linuxhowtos.org/C_C++/socket.htm
 2. implement a buffered reader for reading requests one line at a time (delimited by CRLF)
 3. begining parser: parse out the method, the request version and the path
 4. header parsing for the "Header: value" syntax (Don't forget unfolding folded headers.)
